@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 20px 10px 10px 120px;
+    color:rgb(218, 42, 42);
+    padding: 10px;
+}
+
+h3 {
+    color:darksalmon;
+    margin: 10px 10px 10px 180px;
+} 
+
+img {
+    height: 150px;
+    width: 80px;
+    padding: 10px;
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-size: 11px; 
+    font-style: italic;
+    color: rgb(228, 133, 43);
+    margin: 10px 10px 10px 10px;
+}
+
+li {
+    font-style: italic;
+}
+
+div {
+    width: 500px;
+    background: black;
+    color: rgb(228, 133, 43);
+    border-style:groove;
+    border-color: rgb(228, 133, 43);
+    border-width: 5px;
+    font-family: 'Roboto', sans-serif;   
+}
+
+a {
+    color: rgb(228, 133, 43);
+}
