@@ -1,46 +1,30 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
 }
 
-h1 {
-    margin: 20px 10px 10px 120px;
-    color:rgb(218, 42, 42);
-    padding: 10px;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-h3 {
-    color:darksalmon;
-    margin: 10px 10px 10px 180px;
-} 
-
-img {
-    height: 150px;
-    width: 80px;
-    padding: 10px;
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(75, 75, 57);
+  color: orange;
 }
 
-p {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-    font-size: 11px; 
-    font-style: italic;
-    color: rgb(228, 133, 43);
-    margin: 10px 10px 10px 10px;
-}
-
-li {
-    font-style: italic;
-}
-
-div {
-    width: 500px;
-    background: black;
-    color: rgb(228, 133, 43);
-    border-style:groove;
-    border-color: rgb(228, 133, 43);
-    border-width: 5px;
-    font-family: 'Roboto', sans-serif;   
-}
-
-a {
-    color: rgb(228, 133, 43);
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: grey;
+  color: black;
 }

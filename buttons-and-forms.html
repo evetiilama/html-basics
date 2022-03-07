@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons and Forms</title>
+    <link rel="stylesheet" href="./style/buttons-and-forms.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <h1>Buttons and forms</h1>
+    <button onclick="alert('Hello world')">Click me</button>
+
+    <form>
+      <input
+        placeholder="Email"
+        type="email"
+        name="email"
+        style="margin-bottom: 20px"
+      /><br />
+      <input placeholder="password" type="password" name="password" />
+
+      <h3>Are you allergic to any of these?</h3>
+      <div class="checkbox__group">
+        <input type="checkbox" value="fish" name="fish" />
+        <label for="Fish">Fish</label><br />
+        <input type="checkbox" value="Meat" name="Meat" /><label for="meat"
+          >Meat</label
+        ><br />
+        <input type="checkbox" value="veg" name="veg" /><label for="veg"
+          >Veg</label
+        ><br />
+      </div>
+
+      <!--input type="radio" />
+          <input type="file" />
+      <input type="tel" /-->
+    </form>
+  </body>
+</html>
